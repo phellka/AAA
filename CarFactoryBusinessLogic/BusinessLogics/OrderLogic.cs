@@ -9,7 +9,7 @@ using CarFactoryContracts.Enums;
 
 namespace CarFactoryBusinessLogic.BusinessLogics
 {
-    class OrderLogic : IOrderLogic
+    public class OrderLogic : IOrderLogic
     {
         private readonly IOrderStorage orderStorage;
         public OrderLogic(IOrderStorage orderStorage)

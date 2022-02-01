@@ -8,7 +8,7 @@ using CarFactoryContracts.ViewModels;
 
 namespace CarFactoryBusinessLogic.BusinessLogics
 {
-    class CarLogic : ICarLogic
+    public class CarLogic : ICarLogic
     {
         private readonly ICarStorage carStorage;
         public CarLogic(ICarStorage carStorage)
